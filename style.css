@@ -136,6 +136,7 @@ body {
   background-color: #0f0f0f;
   width: calc(((100% - 96px) * 0.8) + 48px);
   display: flex;
+  column-gap: 2.75%;
   flex-wrap: wrap;
   align-content: flex-start;
   visibility: hidden;
