@@ -1,143 +1,276 @@
 {
   "navbar": [
     {
-      "label": "Home",
+      "label": "What we do",
       "url": "/home",
       "submenu": [
         {
-          "label": "Introduction",
+          "label": "Industries",
           "url": "/home/introduction",
           "submenu": [
-            {
-              "label": "Overview",
-              "url": "/home/introduction/overview"
-            },
-            {
-              "label": "Mission",
-              "url": "/home/introduction/mission"
-            }
+            { "label": "Banking" },
+            { "label": "Capital Markets" },
+            { "label": "Consumer Goods and Distribution" },
+            { "label": "Communications, Media, and Information Services" },
+            { "label": "Education" },
+            { "label": "Energy, Resources, and Utilities" },
+            { "label": "Healthcare" },
+            { "label": "High Tech" },
+            { "label": "Insurance" },
+            { "label": "Life Sciences" },
+            { "label": "Manufacturing" },
+            { "label": "Public Services" },
+            { "label": "Retail" },
+            { "label": "Travel and Logistics" }
           ]
         },
         {
-          "label": "Featured",
+          "label": "Services",
           "url": "/home/featured",
           "submenu": [
-            {
-              "label": "New Arrivals",
-              "url": "/home/featured/new-arrivals"
-            },
-            {
-              "label": "Best Sellers",
-              "url": "/home/featured/best-sellers"
-            },
-            {
-              "label": "Deals",
-              "url": "/home/featured/deals"
-            },
-            {
-              "label": "Specials",
-              "url": "/home/featured/specials"
-            }
+            { "label": "Cloud" },
+            { "label": "Cognitive Business Operations" },
+            { "label": "Consulting" },
+            { "label": "Cybersecurity" },
+            { "label": "Data and Analytics" },
+            { "label": "Enterprise Solutions" },
+            { "label": "IoT and Digital Engineering" },
+            { "label": "Network Solutions and Services" },
+            { "label": "TCS Interactive" },
+            { "label": "Sustainability Services" }
           ]
+        },
+        {
+          "label": "Products and Platforms",
+          "url": "/home/featured",
+          "submenu": [
+            { "label": "TCS ADD™" },
+            { "label": "TCS BANCS™" },
+            { "label": "TCS BFSI Platforms" },
+            { "label": "TCS CHROMA™" },
+            { "label": "TCS Customer Intelligence & Insights™" },
+            { "label": "TCS ERP on Cloud" },
+            { "label": "ignio™" },
+            { "label": "TCS iON™" },
+            { "label": "TCS HOBS™" },
+            { "label": "TCS Intelligent Urban Exchange™" },
+            { "label": "TCS OmniStore™" },
+            { "label": "TCS Optumera™" }
+          ]
+        },
+        {
+          "label": "Research & Innovation",
+          "url": "/home/featured",
+          "submenu": [{ "label": "TCS Research" }, { "label": "TCS Pace™" }]
         }
       ]
     },
     {
-      "label": "About Us",
+      "label": "Who we are",
       "url": "/about-us",
       "submenu": [
         {
-          "label": "Company Profile",
+          "label": "About Us",
           "url": "/about-us/company-profile",
           "submenu": [
-            {
-              "label": "History",
-              "url": "/about-us/company-profile/history"
-            },
-            {
-              "label": "Vision",
-              "url": "/about-us/company-profile/vision"
-            },
-            {
-              "label": "Values",
-              "url": "/about-us/company-profile/values"
-            },
-            {
-              "label": "Milestones",
-              "url": "/about-us/company-profile/milestones"
-            }
+            { "label": "Corporate Sustainability" },
+            { "label": "Diversity, Equity, and Inclusion" },
+            { "label": "Corporate Social Responsibility" },
+            { "label": "The TCS Way" },
+            { "label": "Sports Sponsorships" },
+            { "label": "Alliances" }
           ]
         },
         {
-          "label": "Team",
-          "url": "/about-us/team",
+          "label": "Leadership",
+          "url": "/about-us/team"
+        },
+        {
+          "label": "In The News",
+          "url": "/about-us/team"
+        },
+        {
+          "label": "Events",
+          "url": "/about-us/team"
+        }
+      ]
+    },
+    {
+      "label": "Insights",
+      "url": "/services",
+      "submenu": [
+        {
+          "label": "Customer Stories",
+          "url": "/services/web-development"
+        },
+        {
+          "label": "Perspectives",
+          "url": "/services/design"
+        },
+        {
+          "label": "Global Studies",
+          "url": "/services/design"
+        },
+        {
+          "label": "Topics",
+          "url": "/services/design",
           "submenu": [
-            {
-              "label": "Leadership",
-              "url": "/about-us/team/leadership"
-            },
-            {
-              "label": "Departments",
-              "url": "/about-us/team/departments"
-            },
-            {
-              "label": "Projects",
-              "url": "/about-us/team/projects"
-            },
-            {
-              "label": "Clients",
-              "url": "/about-us/team/clients"
-            }
+            { "label": "Insights" },
+            { "label": "Metaverse" },
+            { "label": "Sustainability" },
+            { "label": "Cybersecurity" },
+            { "label": "AI & ML" },
+            { "label": "Blockchain" },
+            { "label": "Cloud" },
+            { "label": "Future of Work" },
+            { "label": "Health & Wellness" },
+            { "label": "IoT" },
+            { "label": "Data Analytics and Storage" }
           ]
         }
       ]
     },
     {
-      "label": "Services",
+      "label": "Careers",
       "url": "/services",
       "submenu": [
         {
-          "label": "Web Development",
+          "label": "India",
           "url": "/services/web-development",
           "submenu": [
             {
-              "label": "Frontend",
-              "url": "/services/web-development/frontend"
-            },
-            {
-              "label": "Backend",
-              "url": "/services/web-development/backend"
-            },
-            {
-              "label": "Responsive Design",
-              "url": "/services/web-development/responsive-design"
-            },
-            {
-              "label": "E-commerce Solutions",
-              "url": "/services/web-development/e-commerce-solutions"
+              "label": "India"
             }
           ]
         },
         {
-          "label": "Design",
+          "label": "Americas",
           "url": "/services/design",
           "submenu": [
+            { "label": "Argentina" },
+            { "label": "Brazil" },
+            { "label": "Canada" },
+            { "label": "Chile" },
+            { "label": "Colombia" },
+            { "label": "Ecuador" },
+            { "label": "Mexico" },
+            { "label": "Peru" },
+            { "label": "Uruguay" },
+            { "label": "USA" }
+          ]
+        },
+        {
+          "label": "Asia Pacific",
+          "url": "/services/design",
+          "submenu": [
+            { "label": "Australia" },
+            { "label": "Mainland China" },
+            { "label": "Hong Kong SAR" },
+            { "label": "Indonesia" },
+            { "label": "Japan" },
+            { "label": "Malaysia" },
+            { "label": "New Zealand" },
+            { "label": "Philippines" },
+            { "label": "Republic of Korea" },
+            { "label": "Singapore" },
+            { "label": "Chinese Taipei" },
+            { "label": "Thailand" }
+          ]
+        },
+        {
+          "label": "Europe & UK",
+          "url": "/services/design",
+          "submenu": [
+            { "label": "Belgium" },
+            { "label": "Denmark" },
+            { "label": "Estonia" },
+            { "label": "Finland" },
+            { "label": "France" },
+            { "label": "Germany" },
+            { "label": "Hungary" },
+            { "label": "Ireland" },
+            { "label": "Italy" },
+            { "label": "Luxembourg" },
+            { "label": "Netherlands" },
+            { "label": "Norway" },
+            { "label": "Poland" },
+            { "label": "Portugal" },
+            { "label": "Spain" },
+            { "label": "Sweden" },
+            { "label": "Switzerland" },
+            { "label": "United Kingdom" }
+          ]
+        },
+        {
+          "label": "Middle East & Africa",
+          "url": "/services/design",
+          "submenu": [
+            { "label": "Bahrain" },
+            { "label": "Israel" },
+            { "label": "Kuwait" },
+            { "label": "Qatar" },
+            { "label": "Saudi Arabia" },
+            { "label": "South Africa" },
+            { "label": "United Arab Emirates" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Investors",
+      "url": "/services",
+      "submenu": [
+        {
+          "label": "Management Commentary",
+          "url": "/services/web-development",
+          "submenu": [
+            { "label": "Latest Quarter Commentary" },
+            { "label": "Annual Report Section" }
+          ]
+        },
+        {
+          "label": "Financials",
+          "url": "/services/design",
+          "submenu": [
+            { "label": "Quarterly Earnings Reports" },
+            { "label": "Download TCS Data Sheet" },
+            { "label": "Erstwhile CMC Financials" }
+          ]
+        },
+        {
+          "label": "News & Events",
+          "url": "/services/design",
+          "submenu": [
+            { "label": "Press Releases" },
+            { "label": "Corporate Actions" },
+            { "label": "Events" },
+            { "label": "Calendar" }
+          ]
+        },
+        {
+          "label": "ESG",
+          "url": "/services/design",
+          "submenu": [
+            { "label": "Environment" },
+            { "label": "Social" },
+            { "label": "Governance" },
+            { "label": "Policies and Reports" },
             {
-              "label": "Graphic Design",
-              "url": "/services/design/graphic-design"
-            },
-            {
-              "label": "UI/UX",
-              "url": "/services/design/ui-ux"
-            },
-            {
-              "label": "Brand Identity",
-              "url": "/services/design/brand-identity"
-            },
-            {
-              "label": "Print Design",
-              "url": "/services/design/print-design"
+              "label": "Stakeholder Engagement and Identification of Material Issues"
             }
+          ]
+        },
+        {
+          "label": "Resources",
+          "url": "/services/design",
+          "submenu": [
+            { "label": "Glossary" },
+            { "label": "Investor FAQs" },
+            { "label": "Stock Information" },
+            { "label": "Analyst Coverage" },
+            { "label": "Subsidiaries" },
+            { "label": "Subscribe to Investor Updates" },
+            { "label": "Unclaimed Dividend Information" }
           ]
         }
       ]

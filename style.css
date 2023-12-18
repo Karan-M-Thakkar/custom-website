@@ -112,6 +112,9 @@ body {
   border: 1px solid transparent;
   transition: all 0.3s ease;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .l2-items-list > li:hover {
@@ -126,17 +129,23 @@ body {
 
 .l3-items-list {
   list-style-type: none;
-  padding: 20px 160px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 24px 160px;
   background-color: #0f0f0f;
-  flex-grow: 1;
+  width: calc(((100% - 96px) * 0.8) + 48px);
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
   visibility: hidden;
   opacity: 0;
 }
 
 .l3-items-list > li {
-  width: 33.33%;
+  width: 31.5%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .l3-items-list > li > a {
@@ -144,7 +153,16 @@ body {
   text-decoration: none;
 }
 
+.l3-items-list > li > a:hover {
+  text-decoration: underline;
+}
+
 .l2-nav-item:hover .l3-items-list {
   visibility: visible;
   opacity: 1;
+}
+
+.l2-nav-item p {
+  color: #f0f0f0;
+  font-size: 20px;
 }
