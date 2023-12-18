@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+}
+
+.app-conatiner {
+  background-color: #2f2f2f;
+  flex-grow: 1;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #0f0f0f;
+  display: flex;
+}
+
+.logo-container {
+  margin-right: 32px;
+  padding: 16px;
+}
+
+.logo-container > h2 {
+  color: #f0f0f0;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-link {
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-underline {
+  height: 2px;
+  background: linear-gradient(102.57deg, #d0121e, #f84d9f 100%, #f84d9f 0);
+  width: 40px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover .nav-underline {
+  opacity: 1;
+}
+
+.nav-link > a {
+  display: inline-block;
+  margin: 8px 0;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.nav-link:not(:last-of-type) {
+  margin-right: 12px;
+}
+
+.nav-links li:hover .mega-menu-container {
+  transition: all 0.3s ease;
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.mega-menu-container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 32px 48px;
+  top: 68.67px;
+  transform: scaleY(0);
+  transform-origin: top;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #0f0f0f;
+  display: flex;
+}
+
+.nav-link:hover .mega-menu-container {
+  opacity: 1;
+  visibility: visible;
+}
+
+.l2-items-list {
+  width: 20%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.l2-items-list > li {
+  padding: 16px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.l2-items-list > li:hover {
+  background-color: #2f2f2f;
+  border-bottom-color: #f0f0f0;
+}
+
+.l2-items-list > li > a {
+  color: #b4b4b4;
+  text-decoration: none;
+}
+
+.l3-items-list {
+  list-style-type: none;
+  padding: 20px 160px;
+  background-color: #0f0f0f;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.l3-items-list > li {
+  width: 33.33%;
+}
+
+.l3-items-list > li > a {
+  color: #b4b4b4;
+  text-decoration: none;
+}
+
+.l2-nav-item:hover .l3-items-list {
+  visibility: visible;
+  opacity: 1;
+}

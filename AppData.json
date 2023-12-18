@@ -1,0 +1,146 @@
+{
+  "navbar": [
+    {
+      "label": "Home",
+      "url": "/home",
+      "submenu": [
+        {
+          "label": "Introduction",
+          "url": "/home/introduction",
+          "submenu": [
+            {
+              "label": "Overview",
+              "url": "/home/introduction/overview"
+            },
+            {
+              "label": "Mission",
+              "url": "/home/introduction/mission"
+            }
+          ]
+        },
+        {
+          "label": "Featured",
+          "url": "/home/featured",
+          "submenu": [
+            {
+              "label": "New Arrivals",
+              "url": "/home/featured/new-arrivals"
+            },
+            {
+              "label": "Best Sellers",
+              "url": "/home/featured/best-sellers"
+            },
+            {
+              "label": "Deals",
+              "url": "/home/featured/deals"
+            },
+            {
+              "label": "Specials",
+              "url": "/home/featured/specials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "About Us",
+      "url": "/about-us",
+      "submenu": [
+        {
+          "label": "Company Profile",
+          "url": "/about-us/company-profile",
+          "submenu": [
+            {
+              "label": "History",
+              "url": "/about-us/company-profile/history"
+            },
+            {
+              "label": "Vision",
+              "url": "/about-us/company-profile/vision"
+            },
+            {
+              "label": "Values",
+              "url": "/about-us/company-profile/values"
+            },
+            {
+              "label": "Milestones",
+              "url": "/about-us/company-profile/milestones"
+            }
+          ]
+        },
+        {
+          "label": "Team",
+          "url": "/about-us/team",
+          "submenu": [
+            {
+              "label": "Leadership",
+              "url": "/about-us/team/leadership"
+            },
+            {
+              "label": "Departments",
+              "url": "/about-us/team/departments"
+            },
+            {
+              "label": "Projects",
+              "url": "/about-us/team/projects"
+            },
+            {
+              "label": "Clients",
+              "url": "/about-us/team/clients"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "url": "/services",
+      "submenu": [
+        {
+          "label": "Web Development",
+          "url": "/services/web-development",
+          "submenu": [
+            {
+              "label": "Frontend",
+              "url": "/services/web-development/frontend"
+            },
+            {
+              "label": "Backend",
+              "url": "/services/web-development/backend"
+            },
+            {
+              "label": "Responsive Design",
+              "url": "/services/web-development/responsive-design"
+            },
+            {
+              "label": "E-commerce Solutions",
+              "url": "/services/web-development/e-commerce-solutions"
+            }
+          ]
+        },
+        {
+          "label": "Design",
+          "url": "/services/design",
+          "submenu": [
+            {
+              "label": "Graphic Design",
+              "url": "/services/design/graphic-design"
+            },
+            {
+              "label": "UI/UX",
+              "url": "/services/design/ui-ux"
+            },
+            {
+              "label": "Brand Identity",
+              "url": "/services/design/brand-identity"
+            },
+            {
+              "label": "Print Design",
+              "url": "/services/design/print-design"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
