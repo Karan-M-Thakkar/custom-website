@@ -47,18 +47,22 @@ fetch("./AppData.json")
       "mega-menu-container"
     );
     for (let megaMenuContainer of megaMenuContainers) {
+      console.log("Start");
       let allL3ListsUnderMegaMenuContainer =
         megaMenuContainer.getElementsByClassName("l3-items-list");
       let maxL3ListHeight = 0;
       for (let l3List of allL3ListsUnderMegaMenuContainer) {
+        console.log(l3List.clientHeight);
         maxL3ListHeight =
           l3List.clientHeight > maxL3ListHeight
             ? l3List.clientHeight
             : maxL3ListHeight;
       }
       megaMenuContainer.style.minHeight = `${maxL3ListHeight}px`;
+      console.log(maxL3ListHeight);
       for (let l3List of allL3ListsUnderMegaMenuContainer) {
-        l3List.style.minHeight = "100%";
+        l3List.style.height = "100%";
       }
+      console.log("End");
     }
   });
